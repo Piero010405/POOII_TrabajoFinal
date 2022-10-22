@@ -1,1 +1,12 @@
+package avance_01;
+
+public class Vendedor extends Empleado {
+   
+    public Vendedor(String nombre, String apellido, String dni, String telefono,
+            String correocorp)
+    {
+        super(nombre, apellido, dni, telefono, correocorp);
+       
+    }
+}
 
