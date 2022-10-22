@@ -4,18 +4,16 @@ public class Libro {
     private String autorLibro;
     private String sinopsisLibro;
     private String stockLibro;
-    private String lugarLibro;
     private float precioLibro;
     private String editorialLibro;
-    private int    fechaLibro;
+    private String  fechaLibro;
 
-    public Libro(int codigoLibro, String nombreLibro, String autorLibro, String sinopsisLibro, String stockLibro, String lugarLibro, float precioLibro, String editorialLibro, int fechaLibro) {
+    public Libro(int codigoLibro, String nombreLibro, String autorLibro, String sinopsisLibro, String stockLibro, float precioLibro, String editorialLibro, String fechaLibro) {
         this.codigoLibro = codigoLibro;
         this.nombreLibro = nombreLibro;
         this.autorLibro = autorLibro;
         this.sinopsisLibro = sinopsisLibro;
         this.stockLibro = stockLibro;
-        this.lugarLibro = lugarLibro;
         this.precioLibro = precioLibro;
         this.editorialLibro = editorialLibro;
         this.fechaLibro = fechaLibro;
@@ -63,14 +61,6 @@ public class Libro {
         this.stockLibro = stockLibro;
     }
 
-    public String getLugarLibro() {
-        return lugarLibro;
-    }
-
-    public void setLugarLibro(String lugarLibro) {
-        this.lugarLibro = lugarLibro;
-    }
-
     public float getPrecioLibro() {
         return precioLibro;
     }
@@ -87,7 +77,7 @@ public class Libro {
         this.editorialLibro = editorialLibro;
     }
 
-    public int getFechaLibro() {
+    public String getFechaLibro() {
         return fechaLibro;
     }
 
