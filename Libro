@@ -3,7 +3,7 @@ public class Libro {
     private String nombreLibro;
     private String autorLibro;
     private String sinopsisLibro;
-    private String stockLibro;
+    private int stockLibro;
     private float precioLibro;
     private String editorialLibro;
     private String  fechaLibro;
