@@ -8,7 +8,7 @@ public class Libro {
     private String editorialLibro;
     private String  fechaLibro;
 
-    public Libro(int codigoLibro, String nombreLibro, String autorLibro, String sinopsisLibro, String stockLibro, float precioLibro, String editorialLibro, String fechaLibro) {
+    public Libro(int codigoLibro, String nombreLibro, String autorLibro, String sinopsisLibro, int stockLibro, float precioLibro, String editorialLibro, String fechaLibro) {
         this.codigoLibro = codigoLibro;
         this.nombreLibro = nombreLibro;
         this.autorLibro = autorLibro;
@@ -53,11 +53,11 @@ public class Libro {
         this.sinopsisLibro = sinopsisLibro;
     }
 
-    public String getStockLibro() {
+    public Int getStockLibro() {
         return stockLibro;
     }
 
-    public void setStockLibro(String stockLibro) {
+    public void setStockLibro(Int stockLibro) {
         this.stockLibro = stockLibro;
     }
 
